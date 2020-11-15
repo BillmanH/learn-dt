@@ -21,6 +21,7 @@ namespace learn_dt
             Console.WriteLine();
             Console.WriteLine($"Upload a model");
             var typeList = new List<string>();
+            // change this line to upload a different model 
             string dtdl = File.ReadAllText("models/Patron.json");
             typeList.Add(dtdl);
             // Upload the model to the service

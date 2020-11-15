@@ -1,2 +1,5 @@
 bin/*
 obj/*
+
+settings.yaml
+notebooks/.ipynb_checkpoints*

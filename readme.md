@@ -9,5 +9,6 @@ Here are the docs:
 
 Here are the things I've noticed so far:
 * MSFT is [aware of a typo in the code](https://github.com/Azure/azure-sdk-for-python/issues/14918) and is apparently considering potential fixes. 
-* You don't have to load the client secret into your environment variables. Skip all that and use the `DefaultAzureCredential` like a modern engineer. 
+* You don't have to load the client secret into your environment variables. Skip all that and use the `AzureCliCredential`. 
 * There are no `import` statements in the code examples. You'll have to figure out where those methods are on your own. 
+* `serviceClient` and `service_client` are used interchangably as well as some other naming issues. 

@@ -42,5 +42,5 @@
     ],
     "@context": "dtmi:dtdl:context;2",
     "comment": "This should represent one restaurant visitor.",
-    "description": "As an example, contains all of the properties possible in teh DTDL."
+    "description": "As an example, contains all of the properties possible in the DTDL."
 }

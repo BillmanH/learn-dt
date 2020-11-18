@@ -3,3 +3,6 @@ obj/*
 
 settings.yaml
 notebooks/.ipynb_checkpoints*
+
+#visual studio code 
+.vscode*

@@ -4,13 +4,6 @@
     "displayName": "Patron",
     "contents": [
         {
-            "@type": "Property",
-            "name": "wallet",
-            "displayName": "Total Wait Time",
-            "schema": "double",
-            "comment": "the amount of money the patron is willing to spend"
-        },
-        {
             "@type": "Command",
             "name": "order",
             "request": {

@@ -9,9 +9,11 @@ Here are the docs:
 
 Here are the things I have noticed so far:
 * MSFT is [aware of a typo in the code](https://github.com/Azure/azure-sdk-for-python/issues/14918) and is apparently considering potential fixes. 
-* You do not have to load the client secret into your environment variables. Skip all that and use the `AzureCliCredential`. 
+* You do not have to load the client secret into your environment variables. Skip all that and use the `AzureCliCredential` if you are developing locally and not building an app. 
 * There are no `import` statements in the code examples. You will have to figure out where those methods are on your own. 
 * `serviceClient` and `service_client` are used interchangably as well as some other naming issues. 
+* The doc references the query language that is at [review.docs](https://review.docs.microsoft.com/azure/digital-twins/concepts-query-language) (and inaccesible to non MSFT employees), [Here is the public doc](https://docs.microsoft.com/en-us/azure/digital-twins/concepts-query-language).
+
 
 There are open issues for all these issues, I am sure that MSFT will fix them in a future release. 
 

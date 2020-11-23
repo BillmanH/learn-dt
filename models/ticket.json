@@ -1,0 +1,38 @@
+{
+    "@id": "dtmi:billmanh:ticket;1",
+    "@type": "Interface",
+    "displayName": "ticket",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "purchaselocation_lat",
+            "displayName": "puchased location (latitude)",
+            "schema": "double",
+            "comment": "latitude of the place where the ticket was purchased"
+        },
+        {
+            "@type": "Property",
+            "name": "purchaselocation_long",
+            "displayName": "puchased location",
+            "schema": "double",
+            "comment": "longitude of the place where the ticket was purchased"
+        },
+        {
+            "@type": "Property",
+            "name": "sold_to",
+            "displayName": "sold to",
+            "schema": "string",
+            "comment": "UID of the purchaser from customer data"
+        },
+        {
+            "@type": "Property",
+            "name": "sold_to",
+            "displayName": "state",
+            "schema": "string",
+            "comment": "UID of the purchaser from customer data"
+        }
+    ],
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "This should represent one restaurant visitor.",
+    "description": "As an example, contains all of the properties possible in the DTDL."
+}

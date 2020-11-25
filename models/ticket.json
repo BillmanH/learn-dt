@@ -26,10 +26,24 @@
         },
         {
             "@type": "Property",
-            "name": "sold_to",
+            "name": "ticket_location",
+            "displayName": "ticket location",
+            "schema": "string",
+            "comment": "location of the seat"
+        },
+        {
+            "@type": "Property",
+            "name": "ticket_location",
+            "displayName": "ticket location",
+            "schema": "string",
+            "comment": "location of the seat"
+        },
+        {
+            "@type": "Property",
+            "name": "state",
             "displayName": "state",
             "schema": "string",
-            "comment": "UID of the purchaser from customer data"
+            "comment": "current state of the ticket"
         }
     ],
     "@context": "dtmi:dtdl:context;2",

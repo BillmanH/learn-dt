@@ -26,17 +26,17 @@
         },
         {
             "@type": "Property",
-            "name": "ticket_location",
-            "displayName": "ticket location",
+            "name": "event_title",
+            "displayName": "event name",
             "schema": "string",
-            "comment": "location of the seat"
+            "comment": "name or id of the event"
         },
         {
             "@type": "Property",
             "name": "ticket_location",
             "displayName": "ticket location",
             "schema": "string",
-            "comment": "location of the seat"
+            "comment": "location of the seat, for demonstration this is just a number"
         },
         {
             "@type": "Property",
@@ -44,9 +44,21 @@
             "displayName": "state",
             "schema": "string",
             "comment": "current state of the ticket"
+        },
+        {
+            "@type": "Relationship",
+            "name": "ownedBy",
+            "target": "dtmi:billmanh:patron;1",
+            "properties": [
+                {
+                    "@type": "Property",
+                    "name": "bought_online",
+                    "schema": "boolean"
+                }
+            ]
         }
     ],
     "@context": "dtmi:dtdl:context;2",
-    "comment": "This should represent one restaurant visitor.",
-    "description": "As an example, contains all of the properties possible in the DTDL."
+    "comment": "A number of tickets are placed into ADT before purchase with the initial state: open",
+    "description": "an abstract ticket"
 }

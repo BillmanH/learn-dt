@@ -48,7 +48,6 @@
         {
             "@type": "Relationship",
             "name": "ownedBy",
-            "target": "dtmi:billmanh:patron;1",
             "properties": [
                 {
                     "@type": "Property",

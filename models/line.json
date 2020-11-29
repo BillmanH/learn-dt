@@ -1,0 +1,35 @@
+{
+    "@id": "dtmi:billmanh:line;1",
+    "@type": "Interface",
+    "displayName": "line",
+    "contents": [
+        {
+            "@type": "Property",
+            "name": "capacity",
+            "displayName": "puchased location",
+            "schema": "double",
+            "comment": "How many people can safely wait in this line."
+        },
+        {
+            "@type": "Property",
+            "name": "state",
+            "displayName": "state",
+            "schema": "string",
+            "comment": "current state of the line"
+        },
+        {
+            "@type": "Relationship",
+            "name": "leadsTo",
+            "properties": [
+                {
+                    "@type": "Property",
+                    "name": "walk_distance",
+                    "schema": "int"
+                }
+            ]
+        }
+    ],
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "line",
+    "description": "an abstract line"
+}

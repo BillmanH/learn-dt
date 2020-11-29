@@ -1,11 +1,11 @@
 {
-    "@id": "dtmi:billmanh:ticket;1",
+    "@id": "dtmi:billmanh:section;1",
     "@type": "Interface",
-    "displayName": "ticket",
+    "displayName": "entrance",
     "contents": [
         {
             "@type": "Property",
-            "name": "purchaselocation_lat",
+            "name": "section_name",
             "displayName": "puchased location (latitude)",
             "schema": "double",
             "comment": "latitude of the place where the ticket was purchased"

@@ -6,16 +6,16 @@
         {
             "@type": "Property",
             "name": "capacity",
-            "displayName": "puchased location",
+            "displayName": "capacity",
             "schema": "double",
             "comment": "How many people can safely wait in this line."
         },
         {
             "@type": "Property",
-            "name": "state",
-            "displayName": "state",
+            "name": "status",
+            "displayName": "status",
             "schema": "string",
-            "comment": "current state of the line"
+            "comment": "current status of the line"
         },
         {
             "@type": "Relationship",
@@ -24,12 +24,12 @@
                 {
                     "@type": "Property",
                     "name": "walk_distance",
-                    "schema": "int"
+                    "schema": "double"
                 }
             ]
         }
     ],
     "@context": "dtmi:dtdl:context;2",
-    "comment": "line",
-    "description": "an abstract line"
+    "comment": "lines can hold a number of people.",
+    "description": "a group of people waiting to get into a place."
 }

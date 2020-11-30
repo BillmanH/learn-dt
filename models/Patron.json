@@ -31,6 +31,10 @@
             "displayName": "Customer Satisfaction",
             "schema": "integer",
             "comment": "1-10 scale of how likely to recommend to a friend (NPS)"
+        },
+        {
+            "@type": "Relationship",
+            "name": "locatedIn"
         }
     ],
     "@context": "dtmi:dtdl:context;2",

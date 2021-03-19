@@ -2,6 +2,20 @@
 
 Most of the docs around ADT focus on building applications, which makes sense. As a data analyst, I think more about using ADT for modeling. For that reason, my approach to using the API is very different. 
 
+## Getting started
+_from the project root directory_
+
+This document assumes that you have an Azure account, Digital Twin Resource and necessary active directory login information. 
+Assuming you already have Anaconda installed and activated, build the environment:
+```
+conda env create -f env.yaml
+```
+Then you need to test your connection to digital twin:
+```
+python scripts/test_connection.py
+```
+If it returns anything similar to `[<azure.digitaltwins.core._generated.models._models_py3.DigitalTwinsModelData object at 0x00000251B4FB3400>, <azure.digitaltwins.core._generated.models._models_py3.DigitalTwinsModelData object at 0x00000251B4FB3730>]` You are connected and ready to begin. 
+
 ## Case Studies
 Examples of using a digital twin for various purposes. Each one has its own readme and models. 
 

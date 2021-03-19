@@ -12,7 +12,7 @@ Examples of using a digital twin for various purposes. Each one has its own read
 ## Scripts
 | name      | description |
 | ----------- | ----------- |
-| test connection      | confirms that you can connect to the ADT API       |
+| test connection      | confirms that you can connect to the ADT API.      |
 
 
 Here are the docs (the good ones):

@@ -2,7 +2,8 @@ bin/*
 obj/*
 
 settings.yaml
-notebooks/.ipynb_checkpoints*
+*.ipynb_checkpoints*
 
 #visual studio code 
 .vscode*
+

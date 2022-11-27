@@ -3,7 +3,6 @@
 Most of the docs around ADT focus on building applications, which makes sense. As a data analyst, I think more about using ADT for modeling. For that reason, my approach to using the API is very different. 
 
 This repo will, in addition to giving you an updated understanding of Azure Digital Twin's API, give you templates that you can use to build your own digital twin models. 
-* While 
 
 # Getting started
 _from the project root directory_

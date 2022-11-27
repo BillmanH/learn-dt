@@ -8,7 +8,7 @@
             "@type": "Property",
             "name": "model_no",
             "displayName": "Model No.",
-            "schema": "string",
+            "schema": "double",
             "comment": "model number of the equempent"
         },
         {
@@ -22,11 +22,6 @@
             "displayName": "Manufacturer",
             "schema": "string",
             "comment": "name of the vendor or manufacturer"
-        },
-        {
-            "@type": "Property",
-            "name": "name",
-            "schema": "string"
         }
     ]
 }

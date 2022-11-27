@@ -1,9 +1,5 @@
 # Azure digital twin pipe and tanks simulation:
 
-![Alt text](img\pipes_n_tanks.png?raw=true "pipes and tanks")
-
-This is meant to be both a tutorial on digital twins, as well as a starter template for your own digital twin. The focus is on simulation and 
-
 # Building the Azure Resources:
 
 In the `infra` folder you will find `build_az.ps1`. I generally copy and paste it line by line into the terminal to make sure I'm configured correctly. Normally this part would be part of a build pipeline in ADO but I built this to run on my local machine out of simplicity. 
@@ -18,5 +14,3 @@ Add these to yourself in the portal:
 * `Azure Digital Twins Data Owner` <- so that you can query and edit the digital twin
 * `Storage Blob Data Owner` <- So that you can edit and access the blob storage.
 
-Credit:
-* [Steve Snow](https://www.thingiverse.com/snowman77/designs) for the pipe and tank objects on thingaverse. 

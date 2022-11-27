@@ -8,6 +8,9 @@ These notebooks will show you how to create a graph and interact with it through
 
 **Note** that most of these items aren't from IoT sensors. In this scenario lines and areas have IoT sensors that send telemtry to the cloud. Those sensors are conected via a digital model to the information that we care about such as tickets and people. This shows you how the _model integrates your IoT devices with your digital ecosystem_
 
+* Doesn't use the 3d scene viewer
+* Doesn't use any real telemetry, Event Hub messages, or IoT devices. 
+
 ![the graph you get](../../docs/img/largergraph.png)
 
 You will need: 

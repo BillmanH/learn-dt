@@ -1,5 +1,9 @@
+# Object folders
 bin/*
 obj/*
+
+# Key files
+config.yml
 
 settings.yaml
 *.ipynb_checkpoints*

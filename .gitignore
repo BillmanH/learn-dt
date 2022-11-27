@@ -11,3 +11,6 @@ settings.yaml
 #visual studio code 
 .vscode*
 
+
+# Staging files for excel
+*~$*.xlsx

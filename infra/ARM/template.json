@@ -141,11 +141,7 @@
                 "name": "[parameters('storage-accountType')]"
             },
             "kind": "[parameters('storage-kind')]",
-            "tags": {
-                "purpose": "home",
-                "use": "personal",
-                "scope": "public"
-            }
+            "tags": "[parameters('tags')]"
         },
         {
             "name": "[concat(parameters('storage-AccountName'), '/default')]",

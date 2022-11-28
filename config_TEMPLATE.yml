@@ -1,0 +1,4 @@
+#will be kept in the .gitignore file
+
+# Digital Twin secrets
+ADT_HOST_NAME: <found in the azure portal>

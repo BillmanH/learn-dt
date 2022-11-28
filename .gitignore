@@ -4,6 +4,7 @@ obj/*
 
 # Key files
 config.yml
+infra/ARM/parameters.json
 
 settings.yaml
 *.ipynb_checkpoints*

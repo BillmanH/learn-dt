@@ -13,12 +13,6 @@
         "adt-name": {
             "type": "String"
         },
-        "adt-principalId": {
-            "type": "String"
-        },
-        "adt-roleDefinitionId": {
-            "type": "String"
-        },
         "region": {
             "type": "String"
         },

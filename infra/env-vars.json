@@ -1,6 +1,6 @@
 {
     "subscription": "a6cfe0d3-4287-4ccc-9d6b-c70a2685e846",
-    "AZURE_STORAGE_KEY": "RmMGd1EY47hxtNV/4wESQHZRDTJgxgQJ8Mr7DwRoxS7IlcXVryLxFN0Q7070WxYRAUX37FrxGHhQOQwuFljvRA",
+    "AZURE_STORAGE_KEY": "<storage key>",
     "AZURE_ACCOUNT_NAME": "exodestinyblob",
     "AZURE_STATIC_CONTAINER": "static",
     "AZURE_DIGITAL_TWIN_NAME": "billmanh-adt.api.wus2.digitaltwins.azure.net"
